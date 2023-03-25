@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+          <input type="text" id="one" value="" onclick="onclick1(); statuscheck(); ">
+          <input type="text" id="two" value="" onclick="onclick2(); statuscheck(); ">
+          <input type="text" id="three" value="" onclick="onclick3(); statuscheck();">
+          <input type="text" id="four" value="" onclick="onclick4(); statuscheck();">
+          <input type="text" id="five" value="" onclick="onclick5(); statuscheck();">
+          <input type="text" id="six" value="" onclick="onclick6(); statuscheck();">
+          <input type="text" id="seven" value="" onclick="onclick7(); statuscheck();">
+          <input type="text" id="eight" value="" onclick="onclick8(); statuscheck();">
+          <input type="text" id="nine" value="" onclick="onclick9(); statuscheck();">
+        </div>
+        <p id="status">START PLAYING</p>
+        <button id="btn-1"onclick="reset();">RESET</button>
+      </div>
+      <div id="container-2">
+        <div class="pop-up">
+          <h1>CONGRATULATIONS</h1>
+          <p id="result"></p>
+          <button id="btn-2"onclick="reset();"> OK </button>
+        </div>
+      </div>
+      <script src="javascript.js"></script> 
+</body>
+</html>
